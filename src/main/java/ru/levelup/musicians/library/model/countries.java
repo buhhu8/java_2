@@ -1,4 +1,4 @@
-package ru.levelup.musicians.library.jdbc.model;
+package ru.levelup.musicians.library.model;
 
 import lombok.Builder;
 import lombok.Getter;

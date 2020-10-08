@@ -1,8 +1,6 @@
 package ru.levelup.musicians.library.jdbc;
 
 
-import ru.levelup.musicians.library.jdbc.model.musicians;
-
 import java.sql.Date;
 
 public class App {

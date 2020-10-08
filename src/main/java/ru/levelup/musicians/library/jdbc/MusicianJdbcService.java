@@ -1,7 +1,7 @@
 package ru.levelup.musicians.library.jdbc;
 
 import ru.levelup.musicians.library.jdbc.mapper.MusicianMapper;
-import ru.levelup.musicians.library.jdbc.model.musicians;
+import ru.levelup.musicians.library.model.musicians;
 
 import java.sql.*;
 import java.util.ArrayList;

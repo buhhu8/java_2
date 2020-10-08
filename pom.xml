@@ -26,6 +26,19 @@
             <version>1.18.12</version>
             <scope>provided</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.github.classgraph/classgraph -->
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.10</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.4.22.Final</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>

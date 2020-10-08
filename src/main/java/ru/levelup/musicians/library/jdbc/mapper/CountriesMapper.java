@@ -1,5 +1,5 @@
 package ru.levelup.musicians.library.jdbc.mapper;
-import ru.levelup.musicians.library.jdbc.model.countries;
+import ru.levelup.musicians.library.model.countries;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

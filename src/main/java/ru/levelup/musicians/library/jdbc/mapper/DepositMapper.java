@@ -1,7 +1,7 @@
 package ru.levelup.musicians.library.jdbc.mapper;
 
 
-import ru.levelup.musicians.library.jdbc.model.Deposit;
+import ru.levelup.musicians.library.model.Deposit;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
