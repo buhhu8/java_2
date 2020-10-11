@@ -67,12 +67,5 @@ public class HibernateCountriesRepository implements CountriesRepository {
         }
     }
 
-    //    @Override
-//    public List<Person> findByLastName(String lastName) {
-//        try(Session session = factory.openSession()){
-//            return session.createQuery("from Person where lastName like :lastName", Person.class)
-//                    .setParameter("lastName", lastName)
-//                    .getResultList();
-//        }
-//    }
+
 }

@@ -29,7 +29,7 @@ public class testApp {
  //    countriesRepository.deleteCountry(4);
 
    //     musicians musicians = musiciansRepository.createMusician(1, "Jaba", "Jaba", "m", "m", new Date(-289798384000L),3);
-     //   musiciansRepository.updateMusician(1,"Adf","df","dfgd","f",new Date(-289798384000L),2);
+        musiciansRepository.updateMusician(1,"Denis","df","dfgd","f",new Date(-289798384000L),3);
    //     musiciansRepository.deleteMusician(1);
   //       musiciansRepository.findByName("Ket");
    //     musiciansRepository.findByDateOfBirth(new Date (578169999000L));

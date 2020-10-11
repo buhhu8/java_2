@@ -15,30 +15,28 @@ public class HibernateMusiciansRepositories implements MusiciansRepository{
 
     private final SessionFactory factory;
 
+
     @Override
     public void updateMusician(Integer id, String first_name, String middle_name, String last_name, String sex, Date date_of_birth, Integer country_id) {
+        try (Session session = factory.openSession()) {
+            //найти строку по ID, можно воспользоваться одним из методов: get или load
+            Transaction tx = session.beginTransaction();
+            String hqlUpdate = "UPDATE musicians SET id =: id, first_name =: first_name , middle_name =: middle_name ,last_name =: last_name, sex =: sex, date_of_birth =: date_of_birth, country_id =: country_id WHERE id =: id " ;
+            System.out.println(hqlUpdate);
+            int deletedEntities = session.createQuery( hqlUpdate )
 
+                    .setInteger( "id", id)
+                    .setString("first_name", first_name)
+                    .setString("middle_name", middle_name)
+                    .setString("last_name", last_name)
+                    .setString("sex",sex)
+                    .setDate("date_of_birth",date_of_birth)
+                    .setInteger("country_id", country_id)
+                 .executeUpdate();
+            tx.commit();
+            session.close();
+        }
     }
-//    @Override
-//    public void updateMusician(Integer id, String first_name, String middle_name, String last_name, String sex, Date date_of_birth, Integer country_id) {
-//        try (Session session = factory.openSession()) {
-//            //найти строку по ID, можно воспользоваться одним из методов: get или load
-//            Transaction tx = session.beginTransaction();
-//            String hqlUpdate = "UPDATE musicians SET id = 1, first_name = 'asd' , middle_name = 'sdfsd' ,last_name = 'sdfds', sex = 'f', date_of_birth = -289798384000L, country_id = 2 WHERE id = 1" ;
-//            System.out.println(hqlUpdate);
-//            session.update( hqlUpdate, musicians.class );
-////                    .setInteger( "id", id)
-////                    .setString("first_name", first_name)
-////                    .setString("middle_name", middle_name)
-////                    .setString("last_name", last_name)
-////                    .setString("sex",sex)
-////                    .setDate("date_of_birth",date_of_birth)
-////                    .setInteger("country_id", country_id)
-////                    .executeUpdate();
-//            tx.commit();
-//            session.close();
-//        }
-//    }
 
     @Override
     public void deleteMusician(Integer id) {

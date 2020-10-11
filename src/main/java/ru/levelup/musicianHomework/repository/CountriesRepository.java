@@ -12,5 +12,4 @@ public interface CountriesRepository {
 
     countries findCountryByName(String name);
 
-//    List <Person> findByLastName(String lastName);
 }
