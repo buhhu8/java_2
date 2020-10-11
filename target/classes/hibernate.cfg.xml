@@ -6,7 +6,7 @@
     <session-factory>
 
         <property name="hibernate.connection.driver_class"> org.postgresql.Driver</property>
-        <property name="hibernate.connection.url"> jdbc:postgresql://localhost:5432/Banks</property>
+        <property name="hibernate.connection.url"> jdbc:postgresql://localhost:5432/music</property>
         <property name="hibernate.connection.username"> postgres</property>
         <property name="hibernate.connection.password"> 0280829Denis</property>
 
@@ -17,7 +17,9 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format.sql">true</property>
 
-        <mapping class="ru.levelup.musicians.library.model.Person" />
+
+        <mapping class="ru.levelup.musicianHomework.model.countries" />
+        <mapping class="ru.levelup.musicianHomework.model.musicians" />
 
 
 
