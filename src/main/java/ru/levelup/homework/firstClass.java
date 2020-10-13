@@ -1,4 +1,4 @@
-package ru.levelup.homework.classForHomework;
+package ru.levelup.homework;
 
 import ru.levelup.homework.ReflectionClass;
 
@@ -17,7 +17,10 @@ public class firstClass {
     }
     @Override
     public String toString() {
-    return "firstClass";
+    return  "firstClass to string";
 
+    }
+    public void run(){
+        System.out.println("Run");
     }
 }
