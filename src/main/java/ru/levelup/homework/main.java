@@ -13,23 +13,19 @@ public class main {
 
     @SneakyThrows
     public static void main(String[] args) {
-        Class<?> watchClass;
-
 
         List<Class<?>> classes = ClassFinder.find("ru.levelup.homework");
-
-//        for(Object list1 : list){
-//            System.out.println(list1.getClass().getAnnotations());
-//        }
         for(Class<?> list : classes){
             String strBuilder = list.toString();
 
             if (list.isAnnotationPresent(ReflectionClass.class)) {
 
-               Method printWatchMethod = list.getDeclaredMethod("toString");
-               printWatchMethod.setAccessible(true);
-                System.out.println( printWatchMethod.invoke(firstClass));
- 
+                String[] str = strBuilder.split(" ");
+               Class<?> foo = Class.forName(str[1]);
+                Object watch = foo.newInstance();
+                Method printWatchMethod = foo.getDeclaredMethod("toString");
+                printWatchMethod.setAccessible(true);
+                System.out.println(printWatchMethod.invoke(watch));
 
             }
 

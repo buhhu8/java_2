@@ -1,4 +1,4 @@
-package ru.levelup.homework;
+package ru.levelup.homework.classForHomework;
 
 import ru.levelup.homework.ReflectionClass;
 
@@ -21,6 +21,6 @@ public class firstClass {
 
     }
     public void run(){
-        System.out.println("Run");
+        System.out.println("Run and a bottle of rum");
     }
 }
