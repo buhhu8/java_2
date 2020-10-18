@@ -2,9 +2,8 @@ package ru.levelup.musicianHomework.model;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Getter
 @Setter
@@ -12,9 +11,20 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+@Table(name = "countries")
 public class countries {
   @Id
   private Integer country_id;
   @Column(name = "country_name")
   private String country_name;
+
+  @OneToMany
+  @JoinColumn(name = "country_id")
+  private List<Musicians> musicians;
+
+  @OneToMany
+  @JoinColumn(name = "country_id")
+  private List<Bands> bands;
+
+
 }

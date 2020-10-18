@@ -2,11 +2,10 @@ package ru.levelup.musicianHomework.model;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Date;
 import java.sql.Timestamp;
+import java.util.List;
 
 @Getter
 @Setter
@@ -14,7 +13,8 @@ import java.sql.Timestamp;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class musicians {
+@Table(name = "Musicians")
+public class Musicians {
     @Id
     private Integer id;
     @Column(name = "first_name")
@@ -29,4 +29,11 @@ public class musicians {
     private Date date_of_birth;
     @Column(name = "country_id")
     private Integer country_id;
+
+    @ManyToMany(mappedBy = "musicians")
+    private List<Genres> musicianGenres;
+
+//    @OneToMany(mappedBy = "musicians")
+//    private List<MusiciansBand> musiciansBand;
+
 }

@@ -1,7 +1,6 @@
 package ru.levelup.musicianHomework.repository;
 
 import ru.levelup.musicianHomework.model.countries;
-import ru.levelup.musicianHomework.model.musicians;
 
 public interface CountriesRepository {
 

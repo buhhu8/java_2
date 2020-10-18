@@ -6,6 +6,7 @@
     <session-factory>
 
         <property name="hibernate.connection.driver_class"> org.postgresql.Driver</property>
+     <!--   <property name="hibernate.connection.url"> jdbc:postgresql://localhost:5432/Banks</property> -->
         <property name="hibernate.connection.url"> jdbc:postgresql://localhost:5432/music</property>
         <property name="hibernate.connection.username"> postgres</property>
         <property name="hibernate.connection.password"> 0280829Denis</property>
@@ -18,10 +19,31 @@
         <property name="hibernate.format.sql">true</property>
 
 
-        <mapping class="ru.levelup.musicianHomework.model.countries" />
-        <mapping class="ru.levelup.musicianHomework.model.musicians" />
+       <mapping class="ru.levelup.musicianHomework.model.countries" />
+        <mapping class="ru.levelup.musicianHomework.model.Musicians" />
+        <mapping class="ru.levelup.musicianHomework.model.Bands" />
+        <mapping class="ru.levelup.musicianHomework.model.Albums" />
+        <mapping class="ru.levelup.musicianHomework.model.Songs" />
+        <mapping class="ru.levelup.musicianHomework.model.MusiciansBand" />
+        <mapping class="ru.levelup.musicianHomework.model.Genres" />
+        <mapping class="ru.levelup.musicianHomework.model.MusicianGenres" />
+      <!--
+        <mapping class="ru.levelup.musicianHomework.model.BandAlbums" />
+        <mapping class="ru.levelup.musicianHomework.model.BandGenres" />
 
 
+        <mapping class="ru.levelup.musicianHomework.model.MusicianAlbums" />
 
-    </session-factory>
-</hibernate-configuration>
+
+            -->
+
+        <!--     <mapping class="ru.levelup.musicians.java.library.model.Person" />
+             <mapping class="ru.levelup.musicians.java.library.model.Deposit" />
+             <mapping class="ru.levelup.musicians.java.library.model.PersonLegalInfo" />
+             <mapping class="ru.levelup.musicians.java.library.model.Account" />
+             <mapping class="ru.levelup.musicians.java.library.model.Bank" />
+             <mapping class="ru.levelup.musicians.java.library.model.UserDeposits" /> -->
+
+
+         </session-factory>
+     </hibernate-configuration>
