@@ -10,7 +10,6 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
-
 @Table(name = "genres")
 public class Genres {
 
@@ -32,5 +31,17 @@ public class Genres {
     public Genres(){
         this.musicians =new ArrayList<>();
     }
+
+    @Override
+    public String toString() {
+
+        return "Genres{" +
+                "genre_id=" + genreId +
+                ", Genre Name='" + genreName + '\'' +
+
+                '}';
+    }
+
+
 
 }

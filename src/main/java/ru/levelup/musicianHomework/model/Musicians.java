@@ -5,12 +5,13 @@ import lombok.*;
 import javax.persistence.*;
 import java.sql.Date;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.List;
 
 @Getter
 @Setter
 @Entity
-@NoArgsConstructor
+
 @AllArgsConstructor
 @ToString
 @Table(name = "Musicians")
@@ -30,8 +31,34 @@ public class Musicians {
     @Column(name = "country_id")
     private Integer country_id;
 
-    @ManyToMany(mappedBy = "musicians")
+    @ManyToMany
+    @JoinTable(
+            name ="musicians_genres",
+            joinColumns = @JoinColumn(name = "musician_id"), //имя колонки ищ таблицы bank_persons, которая яв-ся внешним ключом на текущую таблицу на Persons
+            inverseJoinColumns = @JoinColumn(name = "genre_id")
+    )
     private List<Genres> musicianGenres;
+
+    public Musicians(){
+        this.musicianGenres =new ArrayList<>();
+    }
+
+
+    @Override
+    public String toString() {
+
+        return "Musicians{" +
+                "id=" + id +
+                ", firstName='" + first_name + '\'' +
+                ", middleName='" + middle_name + '\'' +
+                ", lastName='" + last_name + '\'' +
+                ", Sex='" + sex + '\'' +
+                ", Date of Birth='" + date_of_birth + '\'' +
+                ", country id'" + country_id + '\'' +
+                ", Genres='" + getMusicianGenres().toString() + '\'' +
+                '}';
+    }
+
 
 //    @OneToMany(mappedBy = "musicians")
 //    private List<MusiciansBand> musiciansBand;

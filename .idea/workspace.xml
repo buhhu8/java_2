@@ -2,97 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9cd4243-ff2d-4158-a76f-635ce72aa1f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Albums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/BandAlbums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/BandGenres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Bands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Genres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusicianAlbums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusicianGenres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Musicians.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansBand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansBandsId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Songs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/AlbumsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/GenresRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateAlbumsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateCountriesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateGenresRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/hibernate/HibernateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/jdbc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/jdbc/DepositJdbcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/jdbc/JdbcConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/jdbc/mapper/DepositMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/Deposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/PersonLegalInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/TransferHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/UserDepositId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/UserDeposits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/repository/BankRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/repository/DepositRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/repository/impl/HibernateBankRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/repository/impl/HibernateDepositRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/repository/impl/HibernatePersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/homework/main$ClassFinder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/Albums.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/BandAlbums.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/BandGenres.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/Bands.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/Genres.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/MusicianAlbums.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/MusicianGenres.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/MusiciansBand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/MusiciansBandsId.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/Songs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/AlbumsRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/GenresRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/impl/HibernateAlbumsRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/impl/HibernateCountriesRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/impl/HibernateGenresRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/impl/HibernateMusiciansRepositories.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/TestApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/hibernate/HibernateUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/jdbc/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/jdbc/DepositJdbcService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/jdbc/JdbcConnectionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/jdbc/mapper/DepositMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/Bank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/Deposit$DepositBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/Deposit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/PersonLegalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/TransferHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/UserDepositId.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/UserDeposits.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/repository/BankRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/repository/DepositRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/repository/PersonRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/repository/impl/HibernateBankRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/repository/impl/HibernateDepositRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/repository/impl/HibernatePersonRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/countries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/countries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/CountriesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/CountriesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/HibernateCountriesRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/HibernateMusiciansRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateMusiciansRepositories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/MusiciansRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/MusiciansRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Genres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Genres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusicianGenres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Musicians.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Musicians.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/testApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/testApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/homework/classForHomework/secondClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/homework/classForHomework/secondClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/homework/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/homework/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/countries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/countries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/MusicianGenres.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/musicians.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/model/musicians.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/HibernateCountriesRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/HibernateMusiciansRepositories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/MusiciansRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/MusiciansRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/testApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/testApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state>
               <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/testApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            <state relative-caret-position="348">
+              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusicianGenres.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Genres.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="414">
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,17 +63,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Musicians.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="-391">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansBand.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateGenresRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="301">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,52 +86,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansBandsId.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateMusiciansRepositories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/ReflectionClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/lessons/reflection/proxy/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/lessons/reflection/proxy/ServiceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/lessons/reflection/ClassReflection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="40" column="23" selection-start-line="40" selection-end-line="41" />
+            <state relative-caret-position="272">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -294,13 +173,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Bands.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansGenres.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusicianGenres.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateMusiciansRepositories.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/GenresRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateGenresRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Genres.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateMusiciansRepositories.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Musicians.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/testApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Genres.java" />
       </list>
     </option>
   </component>
@@ -358,6 +237,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -408,6 +289,49 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ru" type="462c0819:PsiDirectoryNode" />
               <item name="levelup" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="levelup" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="levelup" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="levelup" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="levelup" type="462c0819:PsiDirectoryNode" />
               <item name="musicianHomework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -420,6 +344,29 @@
               <item name="levelup" type="462c0819:PsiDirectoryNode" />
               <item name="musicianHomework" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="levelup" type="462c0819:PsiDirectoryNode" />
+              <item name="musicianHomework" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="levelup" type="462c0819:PsiDirectoryNode" />
+              <item name="musicianHomework" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
@@ -449,12 +396,85 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.22.Final" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.22.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.4.22.Final.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.22.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.4.22.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.22.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.4.22.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.22.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.4.22.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.4.22.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.4.22.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -671,8 +691,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -682,7 +703,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.4073673" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.4073673" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -748,39 +769,15 @@
     <MESSAGE value="Reflection_homework" />
     <option name="LAST_COMMIT_MESSAGE" value="Reflection_homework" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="list" />
+        <watch expression="list" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Albums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/hibernate/HibernateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/repository/PersonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/PersonLegalInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -835,23 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansGenres.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansGenres.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusicianAlbums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -916,16 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateMusiciansRepositories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/MusiciansRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -952,23 +923,6 @@
           <caret line="18" column="22" selection-start-line="18" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.22.Final/hibernate-core-5.4.22.Final.jar!/org/hibernate/query/internal/AbstractProducedQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="1063" selection-start-line="1063" selection-end-line="1063" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.22.Final/hibernate-core-5.4.22.Final.jar!/org/hibernate/query/internal/QueryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#1057#1058#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1019,16 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateGenresRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,26 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Bands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Genres.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/InterfaceForHomework/firstInterf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1120,10 +1044,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/ReflectionClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state>
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/lessons/reflection/ClassReflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="40" column="23" selection-start-line="40" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansBand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansBandsId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1144,36 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/lessons/reflection/ClassReflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="40" column="23" selection-start-line="40" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansBandsId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusicianGenres.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1184,17 +1108,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Musicians.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="272">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/MusiciansBand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/ReflectionClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.22.Final/hibernate-core-5.4.22.Final.jar!/org/hibernate/query/internal/QueryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#1057#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1450" column="50" selection-start-line="1450" selection-start-column="50" selection-end-line="1450" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.22.Final/hibernate-core-5.4.22.Final.jar!/org/hibernate/query/internal/QueryParameterBindingsImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.22.Final/hibernate-core-5.4.22.Final.jar!/org/hibernate/query/internal/AbstractProducedQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="1170" selection-start-line="1170" selection-end-line="1170" />
+          <folding>
+            <element signature="e#47860#47861#0" expanded="true" />
+            <element signature="e#47888#47889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.22.Final/hibernate-core-5.4.22.Final.jar!/org/hibernate/query/internal/ParameterMetadataImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+          <folding>
+            <element signature="e#3557#3558#0" expanded="true" />
+            <element signature="e#3614#3615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Bands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateMusiciansRepositories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateGenresRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1203,8 +1203,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/testApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        <state relative-caret-position="348">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Musicians.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/model/Genres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

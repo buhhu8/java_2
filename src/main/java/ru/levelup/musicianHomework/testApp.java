@@ -25,6 +25,8 @@ public class testApp {
         AlbumsRepository albumsRepository = new HibernateAlbumsRepository(factory);
         GenresRepository genresRepository = new HibernateGenresRepository(factory);
         genresRepository.findMusiciansGenres();
+        musiciansRepository.findMusicainsBands();
+
 
 
 //        System.out.println(countriesRepository.findCountryByName("Russia"));
