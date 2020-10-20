@@ -2,6 +2,7 @@ package ru.levelup.musicians.library;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import ru.levelup.musicianHomework.model.Bands;
 import ru.levelup.musicians.library.hibernate.HibernateUtils;
 import ru.levelup.musicians.library.model.Bank;
 import ru.levelup.musicians.library.model.Person;
@@ -82,7 +83,8 @@ public class TestApp {
 
         BankRepository bankRepository = new HibernateBankRepository(factory);
 
-        Bank bank = bankRepository.createBank("Сберwe212121212121212121r1");
+        Bank bank = bankRepository.createBank("Сберwe2121212121212121212121r1");
+
 
         Person p1 = personRepository.findById(234);
         Person p2 = personRepository.findById(3);

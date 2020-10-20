@@ -109,7 +109,7 @@ public class HibernateMusiciansRepositories implements MusiciansRepository {
             Transaction tx = session.beginTransaction();
 
             //3. Создать объект Person
-            Musicians musicians = new Musicians(id, first_name, middle_name, last_name, sex, date_of_birth, country_id,null);
+            Musicians musicians = new Musicians(id, first_name, middle_name, last_name, sex, date_of_birth, country_id,null, null);
             //4. Сохраняем ноового Person
             session.save(musicians);
             tx.commit();
@@ -117,5 +117,22 @@ public class HibernateMusiciansRepositories implements MusiciansRepository {
         }
 
 
+    }
+
+    public void addClient(Integer musicians_Id, Genres genres) {
+        try (Session session = factory.openSession()) {
+            Transaction tx = session.beginTransaction();
+
+            genres = (Genres) session.merge(genres);
+            Musicians musicians = session.get(Musicians.class, musicians_Id);
+
+            musicians.getMusicianGenres().add(genres);
+            genres.getMusicians().add(musicians);
+
+            session.persist(musicians);
+            musicians = new Musicians();
+
+            tx.commit();
+        }
     }
 }

@@ -11,7 +11,6 @@ import java.util.List;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
 @Table(name = "albums")
 public class Albums {
 
@@ -26,5 +25,22 @@ public class Albums {
     @OneToMany
     @JoinColumn(name = "album_id")
     List <Songs> songs;
+
+    @ManyToMany
+    @JoinTable(
+            name ="musician_albums",
+            joinColumns = @JoinColumn(name = "album_id"), //имя колонки ищ таблицы bank_persons, которая яв-ся внешним ключом на текущую таблицу на Persons
+            inverseJoinColumns = @JoinColumn(name = "musician_id")
+    )
+    private List<Musicians> albumMusicians;
+
+
+    @ManyToMany
+    @JoinTable(
+            name ="band_albums",
+            joinColumns = @JoinColumn(name = "album_id"), //имя колонки ищ таблицы bank_persons, которая яв-ся внешним ключом на текущую таблицу на Persons
+            inverseJoinColumns = @JoinColumn(name = "band_id")
+    )
+    private List<Bands> albumsBands;
 
 }

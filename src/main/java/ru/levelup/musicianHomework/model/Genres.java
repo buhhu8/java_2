@@ -28,6 +28,14 @@ public class Genres {
     )
     private List<Musicians> musicians;
 
+    @ManyToMany
+    @JoinTable(
+            name ="bands_genres",
+            joinColumns = @JoinColumn(name = "genre_id"), //имя колонки ищ таблицы bank_persons, которая яв-ся внешним ключом на текущую таблицу на Persons
+            inverseJoinColumns = @JoinColumn(name = "band_id")
+    )
+    private List<Bands> genreBands;
+
     public Genres(){
         this.musicians =new ArrayList<>();
     }

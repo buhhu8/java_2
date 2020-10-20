@@ -1,5 +1,6 @@
 package ru.levelup.musicianHomework.repository;
 
+import ru.levelup.musicianHomework.model.Genres;
 import ru.levelup.musicianHomework.model.Musicians;
 
 import java.sql.Date;
@@ -11,6 +12,7 @@ public interface MusiciansRepository {
     void findByName(String name);
     void findByDateOfBirth(Date dateOfBirth);
     void findMusicainsBands();
+    public void addClient(Integer bankId, Genres genres);
 
 }
 

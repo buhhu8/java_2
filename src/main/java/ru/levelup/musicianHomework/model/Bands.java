@@ -26,6 +26,23 @@ public class Bands {
 
     @Column(name = "country_id")
     private Integer countryId;
+    @ManyToMany
+    @JoinTable(
+            name ="bands_genres",
+            joinColumns = @JoinColumn(name = "band_id"), //имя колонки ищ таблицы bank_persons, которая яв-ся внешним ключом на текущую таблицу на Persons
+            inverseJoinColumns = @JoinColumn(name = "genre_id")
+    )
+    private List<Genres> bandsGenres;
+
+
+    @ManyToMany
+    @JoinTable(
+            name ="band_albums",
+            joinColumns = @JoinColumn(name = "band_id"), //имя колонки ищ таблицы bank_persons, которая яв-ся внешним ключом на текущую таблицу на Persons
+            inverseJoinColumns = @JoinColumn(name = "album_id")
+    )
+    private List<Albums> bandsAlbums;
+
 
 //    @OneToMany(mappedBy = "bands")
 //    private List<MusiciansBand> bandsMusician;

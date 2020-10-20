@@ -39,25 +39,33 @@ public class Musicians {
     )
     private List<Genres> musicianGenres;
 
+    @ManyToMany
+    @JoinTable(
+            name ="musician_albums",
+            joinColumns = @JoinColumn(name = "musician_id"), //имя колонки ищ таблицы bank_persons, которая яв-ся внешним ключом на текущую таблицу на Persons
+            inverseJoinColumns = @JoinColumn(name = "album_id")
+    )
+    private List<Albums> musiciansAlbums;
+
     public Musicians(){
         this.musicianGenres =new ArrayList<>();
     }
 
 
-    @Override
-    public String toString() {
-
-        return "Musicians{" +
-                "id=" + id +
-                ", firstName='" + first_name + '\'' +
-                ", middleName='" + middle_name + '\'' +
-                ", lastName='" + last_name + '\'' +
-                ", Sex='" + sex + '\'' +
-                ", Date of Birth='" + date_of_birth + '\'' +
-                ", country id'" + country_id + '\'' +
-                ", Genres='" + getMusicianGenres().toString() + '\'' +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//
+//        return "Musicians{" +
+//                "id=" + id +
+//                ", firstName='" + first_name + '\'' +
+//                ", middleName='" + middle_name + '\'' +
+//                ", lastName='" + last_name + '\'' +
+//                ", Sex='" + sex + '\'' +
+//                ", Date of Birth='" + date_of_birth + '\'' +
+//                ", country id'" + country_id + '\'' +
+//                ", Genres='" + getMusicianGenres().toString() + '\'' +
+//                '}';
+//    }
 
 
 //    @OneToMany(mappedBy = "musicians")
