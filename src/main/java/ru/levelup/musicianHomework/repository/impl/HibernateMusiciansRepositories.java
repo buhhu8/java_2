@@ -109,7 +109,7 @@ public class HibernateMusiciansRepositories implements MusiciansRepository {
             Transaction tx = session.beginTransaction();
 
             //3. Создать объект Person
-            Musicians musicians = new Musicians(id, first_name, middle_name, last_name, sex, date_of_birth, country_id,null, null);
+            Musicians musicians = new Musicians(id, first_name, middle_name, last_name, sex, date_of_birth, country_id,null, null,null);
             //4. Сохраняем ноового Person
             session.save(musicians);
             tx.commit();

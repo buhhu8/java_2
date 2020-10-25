@@ -83,7 +83,7 @@ public class TestApp {
 
         BankRepository bankRepository = new HibernateBankRepository(factory);
 
-        Bank bank = bankRepository.createBank("Сберwe2121212121212121212121r1");
+        Bank bank = bankRepository.createBank("Сберwe21221211212121212121212121r1");
 
 
         Person p1 = personRepository.findById(234);

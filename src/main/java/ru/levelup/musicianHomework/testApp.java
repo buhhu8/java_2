@@ -21,7 +21,7 @@ public class testApp {
         GenresRepository genresRepository = new HibernateGenresRepository(factory);
         BandsRepository bandsRepository = new HibernateBandsRepository(factory);
 
-        albumsRepository.findAlbums();
+        musiciansRepository.findMusicainsBands();
 
         //musiciansRepository.findMusicainsBands();
 

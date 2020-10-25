@@ -44,8 +44,8 @@ public class Bands {
     private List<Albums> bandsAlbums;
 
 
-//    @OneToMany(mappedBy = "bands")
-//    private List<MusiciansBand> bandsMusician;
+    @OneToMany(mappedBy = "band")
+    private List<MusiciansBand> musician;
 
 
 }

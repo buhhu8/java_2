@@ -47,6 +47,9 @@ public class Musicians {
     )
     private List<Albums> musiciansAlbums;
 
+    @OneToMany(mappedBy = "musician")
+    private List<MusiciansBand> band;
+
     public Musicians(){
         this.musicianGenres =new ArrayList<>();
     }

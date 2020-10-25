@@ -10,20 +10,24 @@ import java.time.LocalDate;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
+
 @Table(name = "musicians_bands")
 public class MusiciansBand {
 
     @EmbeddedId
     private MusiciansBandsId id;
 
-//    @ManyToOne
-//    @MapsId("band_id")
-//    private Bands bands;
-//
-//    @ManyToOne
-//    @MapsId("musician_id")
-//    private Musicians musicians.java;
+
+    @ManyToOne
+    @MapsId("musicianId")
+    @JoinColumn(name = "musician_id")
+    private Musicians musician;
+
+
+    @ManyToOne
+    @MapsId("bandId")
+    @JoinColumn(name = "band_id")
+    private Bands band;
 
 
 
