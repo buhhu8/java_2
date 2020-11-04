@@ -36,13 +36,13 @@ public class testApp {
         task=new Task("5", "Чтение английского", TaskType.Reading, LocalDate.of(2020,10,25));
         task.setTags(tags);
         list.add(task);
-        task = new Task("6", "Домашка2", TaskType.Reading, LocalDate.of(2020,10,29));
+        task = new Task("6", "Домашка", TaskType.Reading, LocalDate.of(2020,10,29));
         task.setTags(tags);
         list.add(task);
-        task= new Task("7", "Домашка3", TaskType.Reading, LocalDate.of(2020,10,28));
+        task= new Task("7", "Домашка", TaskType.Reading, LocalDate.of(2020,10,28));
         task.setTags(tags);
         list.add(task);
-        task = new Task("8", "Домашка4", TaskType.Reading, LocalDate.of(2020,10,30));
+        task = new Task("8", "Домашка", TaskType.Reading, LocalDate.of(2020,10,30));
         task.setTags(tags);
         list.add(task);
 

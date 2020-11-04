@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.query.Query;
+import ru.levelup.musicianHomework.model.Albums;
 import ru.levelup.musicianHomework.model.Songs;
 import ru.levelup.musicianHomework.repository.AlbumsRepository;
 
@@ -18,19 +18,19 @@ public class HibernateAlbumsRepository implements AlbumsRepository {
     private final SessionFactory factory;
 
     @Override
-    public void findAlbums() {
+    public List<Albums> findAlbums() {
         try(Session session = factory.openSession()){
             Transaction tx = session.beginTransaction();
 
             Songs song = new Songs();
             song.getAlbumId();
-            Query query = session.createQuery("FROM Albums");
-            List allAlbums = query.list();
-            for (Object list : allAlbums) {
-                System.out.println(list);
-            }
+            List<Albums> list =  session.createQuery("FROM Albums", Albums.class)
+                    .getResultList();
 
             tx.commit();
+
+            return list;
         }
+
     }
 }

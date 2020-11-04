@@ -27,4 +27,8 @@ public class Bank {
     public Bank(){
         this.bankPersons = new ArrayList<>();
     }
+
+    public Bank(String name){
+        this.name = name;
+    }
 }
