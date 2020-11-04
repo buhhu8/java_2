@@ -22,7 +22,7 @@ public class testApp {
             if ( file.isFile() )
                 lst.add(file.toString());
         }
-        Pattern pattern = Pattern.compile("^in_[\\d]{1,}.txt$");
+        Pattern pattern = Pattern.compile("^in_[\\d]{1,}.txt$");  //файлы начинающиеся на in_ и заканчивающиеся на .txt
         Matcher matcher;
         for(String list: lst){
             matcher = pattern.matcher(list.replace("E:\\",""));
