@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9cd4243-ff2d-4158-a76f-635ce72aa1f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/homework/lambda/testApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/homework/lambda/testApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/AlbumsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/AlbumsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateAlbumsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/repository/impl/HibernateAlbumsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/testApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicianHomework/testApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/musicians/library/model/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/homework/lambda/testApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/homework/lambda/testApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/AlbumsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/AlbumsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/impl/HibernateAlbumsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/repository/impl/HibernateAlbumsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/testApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicianHomework/testApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/levelup/musicians/library/model/Bank.class" afterDir="false" />
-    </list>
+    <list default="true" id="a9cd4243-ff2d-4158-a76f-635ce72aa1f9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/testApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+            <state relative-caret-position="404">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/ThreadsForFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="629">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/operationUnderFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/OperationUnderFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/ReadFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/testApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/ThreadsForFiles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/testApp.java" />
       </list>
     </option>
   </component>
@@ -651,7 +636,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603646919297</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Thread first excercise">
+      <created>1604499481766</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604499481766</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Thread first excercise(add comment)">
+      <created>1604499609854</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604499609854</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -699,7 +698,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -709,7 +708,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.38136512" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.38136512" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -776,7 +775,9 @@
     <MESSAGE value="ManytoMany" />
     <MESSAGE value="ManytoMany without musicians_bands" />
     <MESSAGE value="Lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda" />
+    <MESSAGE value="Thread first excercise" />
+    <MESSAGE value="Thread first excercise(add comment)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread first excercise(add comment)" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1183,16 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/testApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/OperationUnderFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -1215,8 +1206,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/ThreadsForFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="629">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/levelup/homework/threads/testApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

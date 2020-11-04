@@ -33,7 +33,6 @@ public class ThreadsForFiles extends Thread {
     public synchronized void synchronizedWriter(OperationUnderFile operationUnderFile, ArrayList<Integer> list1) {
      //    System.out.println(Thread.currentThread() + "write");
         writer.write (String.valueOf(operationUnderFile.calculationResult(list1)) + " ");
-        writer.flush();
         reader.close();
         writer.close();
 
