@@ -27,7 +27,7 @@ public class testApp {
         for(String list: lst){
             matcher = pattern.matcher(list.replace("E:\\",""));
             if(matcher.find()){
-                new ThreadsForFiles(list);
+                new ThreadsForFiles(list).start();
             }
         }
 
